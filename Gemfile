@@ -36,6 +36,10 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'virtus', '~> 1.0', '>= 1.0.5'
+gem 'virtus_convert', '~> 0.1.0'
+gem 'faraday', '~> 0.9'
+gem 'faraday_middleware', '~> 0.12.0'
 gem 'zeitwerk'
 
 group :development, :test do
